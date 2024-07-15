@@ -1,11 +1,11 @@
 {
 	"schemaVersion": 1,
 	"id": "mahiro",
-	"version": "${version}",
+	"version": "0.0.1",
 	"name": "mahiro",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "The mod that like slimefun",
 	"authors": [
-		"Me!"
+		"misaka13210"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
