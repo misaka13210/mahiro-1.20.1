@@ -14,6 +14,11 @@ public class ModItems {
     //添加拐杖
     public static final Item CRUTCH =registerItem("crutch",
             new Item(new FabricItemSettings()));
+
+    //添加固化剂
+    public static final Item hardener = registerItem("hardener",
+            new Item(new FabricItemSettings()));
+
     //添加物品辅助方法
     public static Item registerItem(String name, Item item, RegistryKey<ItemGroup>...itemGroups){
         Item registeredItem = Registry.register(Registries.ITEM,new Identifier(mahiro.MOD_ID,name),item);
